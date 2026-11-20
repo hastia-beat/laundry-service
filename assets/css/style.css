@@ -1,21 +1,76 @@
-/* CSS buatan sendiri, berdampingan dengan Bootstrap (Modul II) */
+body {
+    background-color: #bde5ff48;
+}
+
+.logo-navbar {
+    width: 43px;
+    height: 43px;
+    object-fit: cover;
+}
+
+.bg-biru-tua {
+    background-color: #162f5c;
+}
+
+.text-biru-tua {
+    color: #162f5c;
+}
+
+.btn-biru-tua {
+    background-color: #0039a4;
+    color: #ffffff;
+}
+
+.btn-biru-tua:hover {
+    background-color: darkblue;
+    color: #ffffff;
+}
+
+.hero {
+    background: linear-gradient(135deg, #102547, #1f4280, #0058c4);
+    color: #ffffff;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    padding: 60px 30px;
+}
+
+.card,
 .kartu-layanan {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #fafafabf;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
-.kartu-layanan:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 24px rgba(13, 110, 253, 0.2);
+
+.card .card-header {
+    background-color: transparent;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
 }
+
+.card .table th,
+.card .table td {
+    background-color: transparent;
+}
+
+.card-tabel {
+    background-color: #fafafabf;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
 #notifikasi {
     transition: opacity 0.4s ease;
 }
+
 #notifikasi.hilang {
     opacity: 0;
 }
-.hero {
-    background-color: #e7f1ff;
-    padding: 60px 0;
-}
+
 .kotak-estimasi {
     background-color: #e7f1ff;
     border: 1px solid #b6d4fe;
