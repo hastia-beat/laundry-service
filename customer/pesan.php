@@ -13,7 +13,7 @@ include "../header.php";
     <div class="col-md-7">
         <h1>Buat Pesanan Laundry</h1>
         <p class="text-muted">Pilih layanan dan masukkan estimasi berat/jumlah. Total dihitung otomatis.</p>
-        <div class="card shadow-sm">
+        <div class="card ">
             <div class="card-body p-4">
                 <form action="proses_pesan.php" method="post">
                     <div class="mb-3">
